@@ -10,12 +10,12 @@ def multiply(a , b):
 def divide(a, b):
    return a / b, a % b, a // b
   
-print("Select operation.")
+print("Available operation.")
 print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
-choice = input("Enter choice(1/2/3/4): ")
+choice = input("Please select a choice(1/2/3/4) from: ")
 
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
