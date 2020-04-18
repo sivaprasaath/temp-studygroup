@@ -10,6 +10,6 @@ class triangle(object):
         else:
             return False
 
-my_triangle=triangle(30,60,90)
+my_triangle=triangle(30,30,120)
 print(my_triangle.num_of_sides)
 print(my_triangle.check_angles())
